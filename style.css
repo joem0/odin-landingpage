@@ -1,33 +1,46 @@
+body {
+    display:flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+.header {
+    display:flex;
+    justify-content: space-between;
+    padding:10px;
+}
 
 .header-right-links {
+    display:flex;
+    gap:8px;
     list-style:none;
     margin:0;
     padding:0;
-    display:flex;
-    gap:8px;
 }
 
 .header-right-links a {
     text-decoration: none;
 }
 
-.header {
-    display:flex;
-    justify-content: space-between;
-}
-
 .body {
     display:flex;
+    flex:1;
     flex-direction:column;
+    align-items:center;
+    justify-content: center;
 }
 
 .hero {
     display:flex;
+    padding:50px;
 }
 
 .information {
     display:flex;
     flex-direction:column;
+    padding:30px;
 }
 
 .information .container {
@@ -37,10 +50,12 @@
 .quote {
     display:flex;
     flex-direction:column;
+    padding:75px;
 }
 
 .cta {
     display:flex;
+    padding:60px;
 }
 
 .cta-content {
@@ -52,4 +67,6 @@
     display:flex;
     justify-content:center;
     align-items:center;
+    background:lightgrey;
+    padding:10px;
 }

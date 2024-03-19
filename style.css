@@ -1,0 +1,16 @@
+
+.header-right-links {
+    list-style:none;
+    margin:0;
+    padding:0;
+    display:flex;
+    gap:8px;
+}
+
+.header-right-links a {
+    text-decoration: none;
+}
+.header {
+    display:flex;
+    justify-content: space-between;
+}

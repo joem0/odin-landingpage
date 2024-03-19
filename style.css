@@ -10,7 +10,12 @@
 .header-right-links a {
     text-decoration: none;
 }
+
 .header {
     display:flex;
     justify-content: space-between;
+}
+
+.hero {
+    display:flex;
 }

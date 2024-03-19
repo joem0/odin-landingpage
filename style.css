@@ -33,3 +33,8 @@
 .information .container {
     display:flex;
 }
+
+.quote {
+    display:flex;
+    flex-direction:column;
+}

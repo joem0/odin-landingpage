@@ -24,3 +24,12 @@
 .hero {
     display:flex;
 }
+
+.information {
+    display:flex;
+    flex-direction:column;
+}
+
+.information .container {
+    display:flex;
+}

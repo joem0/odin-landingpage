@@ -32,7 +32,10 @@ body {
 
 .hero {
     display:flex;
-    padding:50px;
+    align-items:center;
+    justify-content: center;
+    padding:100px;
+    gap:10px;
 }
 
 .information {
@@ -40,6 +43,12 @@ body {
     flex-direction:column;
     align-items:center;
     padding:30px;
+}
+
+.information h2 {
+    font-weight:800;
+    font-size:36px;
+    color:#1F2937;
 }
 
 .information .container {
@@ -64,12 +73,26 @@ body {
 .quote {
     display:flex;
     flex-direction:column;
+    align-items:center;
+    justify-content:center;
     padding:75px;
+    background-color:#E5E7EB;
+}
+
+.quote .quote-text {
+    font-size: 36px;
+    font-weight:400;
+    font-style:italic;
 }
 
 .cta {
     display:flex;
+    align-items: center;
+    justify-content: center;
     padding:60px;
+    margin-bottom:0;
+    background-color:#3882F6;
+    color:white;
 
 }
 
@@ -83,6 +106,7 @@ body {
     justify-content:center;
     align-items:center;
     padding:10px;
+    /* margin:0; */
 }
 
 .header, .hero, .footer {
